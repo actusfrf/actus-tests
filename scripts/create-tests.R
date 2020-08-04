@@ -45,14 +45,14 @@ for(file in testbeds) {
 	colnames(terms)=tocamel(colnames(terms),delim=".")
 	terms$contractID=as.character(terms$contractID)	
 	# convert external data to json and separate from terms
-	tmax = terms$tMax
+	to = terms$to
 	dataObserved=lapply(terms$dataObserved, function(data) {
 			if(data=="") fromJSON("{}") else fromJSON(data)
 		})
 	eventsObserved=lapply(terms$eventsObserved, function(data) {
 			if(data=="") fromJSON("[]") else fromJSON(data)
 		})
-	terms = terms[-which(colnames(terms)%in%c("tMax","dataObserved","eventsObserved"))]
+	terms = terms[-which(colnames(terms)%in%c("to","dataObserved","eventsObserved"))]
 	# convert terms data.frame to list and contractStructure term to json, and remove null-valued terms
 	terms_norm=apply(terms,1,function(test) {
 		test_norm=as.list(test[as.character(test)!=""])
@@ -76,7 +76,7 @@ for(file in testbeds) {
 		cttests[[caseIdentifier]] = 
 			list(identifier = caseIdentifier,
 				terms = terms_norm[[i-1]], #unbox(terms[which(terms$contractID==caseIdentifier),]),
-				tMax = tmax[[i-1]],
+				to = to[[i-1]],
 				dataObserved = dataObserved[[i-1]],
 				eventsObserved = eventsObserved[[i-1]],
 				results = results)

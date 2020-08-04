@@ -15,7 +15,7 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -60,7 +60,7 @@
             "contractDealDate": "2013-12-20T00:00:00",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -97,7 +97,7 @@
             "terminationDate": "2014-09-30T23:59:59",
             "priceAtTerminationDate": "100"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -135,7 +135,7 @@
             "priceAtTerminationDate": "100",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -172,7 +172,7 @@
             "purchaseDate": "2014-04-01T00:00:00",
             "priceAtPurchaseDate": "50"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -229,7 +229,7 @@
             "terminationDate": "2014-09-30T23:59:59",
             "priceAtTerminationDate": "100"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -276,7 +276,7 @@
             "priceAtPurchaseDate": "50",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -320,7 +320,7 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -365,7 +365,7 @@
             "contractDealDate": "2013-12-20T00:00:00",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -402,7 +402,7 @@
             "terminationDate": "2014-09-30T23:59:59",
             "priceAtTerminationDate": "100"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -440,7 +440,7 @@
             "priceAtTerminationDate": "100",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -477,7 +477,7 @@
             "purchaseDate": "2014-04-01T00:00:00",
             "priceAtPurchaseDate": "50"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -534,7 +534,7 @@
             "terminationDate": "2014-09-30T23:59:59",
             "priceAtTerminationDate": "100"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -581,7 +581,7 @@
             "priceAtPurchaseDate": "50",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -628,7 +628,7 @@
             "terminationDate": "2014-06-15T23:59:59",
             "priceAtTerminationDate": "100"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -683,7 +683,7 @@
             "priceAtPurchaseDate": "0",
             "priceAtTerminationDate": "0"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -730,7 +730,7 @@
             "priceAtPurchaseDate": "0",
             "priceAtTerminationDate": "0"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -778,7 +778,7 @@
             "priceAtTerminationDate": "0",
             "settlementDate": "2014-08-31T00:00:00"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -817,7 +817,7 @@
             "terminationDate": "2014-09-30T23:59:59",
             "priceAtTerminationDate": "-100"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },

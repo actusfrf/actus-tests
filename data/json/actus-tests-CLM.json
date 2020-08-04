@@ -18,7 +18,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P1M"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -37,7 +37,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1000,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -65,7 +65,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P2M"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -138,7 +138,7 @@
             },
             {
                 "eventDate": "2015-09-20T00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": -1019.88887159849,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -166,7 +166,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P2M"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -212,7 +212,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1014.53558200696,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -226,11 +226,11 @@
         "terms": {
             "contractID": "clm04",
             "contractType": "CLM",
-            "statusDate": "2015-08-05T00:00:00",
+            "statusDate": "2015-08-19T00:00:00",
             "contractRole": "RPA",
             "calendar": "NC",
             "endOfMonthConvention": "SD",
-            "cycleOfInterestPayment": "P1WL1",
+            "cycleOfInterestPayment": "P15DL1",
             "nominalInterestRate": "0.12",
             "dayCountConvention": "AAISDA",
             "accruedInterest": "5",
@@ -241,7 +241,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P1M"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -253,7 +253,7 @@
                 "eventDate": "2015-08-19T00:00",
                 "eventType": "IPCI",
                 "payoff": 0,
-                "notionalPrincipal": 1004.60273972603,
+                "notionalPrincipal": 1005,
                 "nominalInterestRate": 0.12,
                 "accruedInterest": 0,
                 "currency": "USD"
@@ -287,35 +287,8 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1014.53558200696,
-                "notionalPrincipal": 0,
-                "nominalInterestRate": 0,
-                "accruedInterest": 0,
-                "currency": "USD"
-            },
-            {
-                "eventDate": "2015-09-14T00:00",
-                "eventType": "IPCI",
-                "payoff": 0,
-                "notionalPrincipal": 1018.28057229554,
-                "nominalInterestRate": 0.12,
-                "accruedInterest": 0,
-                "currency": "USD"
-            },
-            {
-                "eventDate": "2015-09-20T00:00",
-                "eventType": "IP",
-                "payoff": 2.00866304671998,
-                "notionalPrincipal": 1018.28057229554,
-                "nominalInterestRate": 0.12,
-                "accruedInterest": 0,
-                "currency": "USD"
-            },
-            {
-                "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
-                "payoff": 1018.28057229554,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
                 "accruedInterest": 0,
@@ -344,7 +317,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -451,7 +424,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": -1005.34834070389,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -482,7 +455,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -571,7 +544,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1004.33217092477,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -601,7 +574,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -788,7 +761,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "EUR_Prim"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "EUR_Prim": {
                 "identifier": "EUR_Prim",
@@ -881,6 +854,15 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "notionalPrincipal": -1004.23657211746,
+                "nominalInterestRate": 0.00897530864197531,
+                "accruedInterest": 0,
+                "currency": "EUR"
+            },
+            {
+                "eventDate": "2015-10-21T00:00",
                 "eventType": "IP",
                 "payoff": -0.246940635186671,
                 "notionalPrincipal": -1004.23657211746,
@@ -889,8 +871,8 @@
                 "currency": "EUR"
             },
             {
-                "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventDate": "2015-10-21T00:00",
+                "eventType": "STD",
                 "payoff": -1004.23657211746,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -917,12 +899,12 @@
             "contractDealDate": "2015-07-18T00:00:00",
             "initialExchangeDate": "2015-07-20T00:00:00",
             "notionalPrincipal": "1000",
-            "xDayNotice": "P9M",
+            "xDayNotice": "P0D",
             "cycleAnchorDateOfRateReset": "2015-08-01T00:00:00",
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "EUR_Prim"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "EUR_Prim": {
                 "identifier": "EUR_Prim",
@@ -1223,6 +1205,15 @@
             },
             {
                 "eventDate": "2016-05-20T00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "notionalPrincipal": 1009.55042104238,
+                "nominalInterestRate": 0.00897530864197531,
+                "accruedInterest": 1.23784516646059,
+                "currency": "EUR"
+            },
+            {
+                "eventDate": "2016-05-20T00:00",
                 "eventType": "IP",
                 "payoff": 1.23784516646059,
                 "notionalPrincipal": 1009.55042104238,
@@ -1232,7 +1223,7 @@
             },
             {
                 "eventDate": "2016-05-20T00:00",
-                "eventType": "PR",
+                "eventType": "STD",
                 "payoff": 1009.55042104238,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -1265,7 +1256,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "EUR_Prim"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "EUR_Prim": {
                 "identifier": "EUR_Prim",
@@ -1354,7 +1345,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": -1003.64957705672,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -1383,7 +1374,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P9M"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -1456,7 +1447,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1014.55249707506,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -1484,7 +1475,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P2M"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -1521,7 +1512,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1000,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -1545,9 +1536,9 @@
             "contractDealDate": "2015-07-18T00:00:00",
             "initialExchangeDate": "2015-08-22T00:00:00",
             "notionalPrincipal": "1000",
-            "xDayNotice": "P5W"
+            "xDayNotice": "P0D"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -1570,6 +1561,15 @@
             },
             {
                 "eventDate": "2015-09-24T00",
+                "eventType": "XD",
+                "payoff": 0,
+                "notionalPrincipal": 1000,
+                "nominalInterestRate": 0.12,
+                "accruedInterest": 10.8493150684932,
+                "currency": "CHF"
+            },
+            {
+                "eventDate": "2015-09-24T00",
                 "eventType": "IP",
                 "payoff": 10.8493150684932,
                 "notionalPrincipal": 1000,
@@ -1579,7 +1579,7 @@
             },
             {
                 "eventDate": "2015-09-24T00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": 1000,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -1605,12 +1605,12 @@
             "contractDealDate": "2015-07-18T00:00:00",
             "initialExchangeDate": "2015-07-20T00:00:00",
             "notionalPrincipal": "1000",
-            "xDayNotice": "P31D",
+            "xDayNotice": "P0D",
             "cycleAnchorDateOfRateReset": "2015-10-01T00:00:00",
             "cycleOfRateReset": "P1WL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -1660,6 +1660,15 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "notionalPrincipal": -1011.88759816273,
+                "nominalInterestRate": 0.12,
+                "accruedInterest": -3.3267537473843,
+                "currency": "USD"
+            },
+            {
+                "eventDate": "2015-09-20T00:00",
                 "eventType": "IP",
                 "payoff": -3.3267537473843,
                 "notionalPrincipal": -1011.88759816273,
@@ -1669,7 +1678,7 @@
             },
             {
                 "eventDate": "2015-09-20T00:00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": -1011.88759816273,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,
@@ -1698,7 +1707,7 @@
             "cycleAnchorDateOfRateReset": "2015-09-01T00:00:00",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -1743,7 +1752,7 @@
             },
             {
                 "eventDate": "2015-12-31T00",
-                "eventType": "PR",
+                "eventType": "MD",
                 "payoff": -1000,
                 "notionalPrincipal": 0,
                 "nominalInterestRate": 0,

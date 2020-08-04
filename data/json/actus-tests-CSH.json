@@ -9,7 +9,7 @@
             "currency": "CHF",
             "notionalPrincipal": "1000"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -42,7 +42,7 @@
             "currency": "USD",
             "notionalPrincipal": "1200"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -75,7 +75,7 @@
             "currency": "CHF",
             "notionalPrincipal": "2000"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
@@ -108,7 +108,7 @@
             "currency": "USD",
             "notionalPrincipal": "2500"
         },
-        "tMax": "",
+        "to": "",
         "dataObserved": {
 
         },
