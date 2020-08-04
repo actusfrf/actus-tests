@@ -181,7 +181,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -50,
                 "notionalPrincipal": "0",
@@ -238,7 +238,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -50,
                 "notionalPrincipal": "0",
@@ -285,7 +285,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -50,
                 "notionalPrincipal": "0",
@@ -329,7 +329,7 @@
         ],
         "results": [
             {
-                "eventDate": "2015-01-01T00:00",
+                "eventDate": "2015-01-01T00:00:00",
                 "eventType": "MD",
                 "payoff": -2000,
                 "notionalPrincipal": "0",
@@ -338,7 +338,7 @@
                 "currency": "USD"
             },
             {
-                "eventDate": "2015-01-01T00:00",
+                "eventDate": "2015-01-01T00:00:00",
                 "eventType": "MD",
                 "payoff": 1000,
                 "notionalPrincipal": "0",
@@ -486,7 +486,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00Z[UTC]",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -50,
                 "notionalPrincipal": "0",
@@ -495,7 +495,7 @@
                 "currency": "USD"
             },
             {
-                "eventDate": "2015-01-01T00:00Z[UTC]",
+                "eventDate": "2015-01-01T00:00:00",
                 "eventType": "MD",
                 "payoff": -2000,
                 "notionalPrincipal": "0",
@@ -504,7 +504,7 @@
                 "currency": "USD"
             },
             {
-                "eventDate": "2015-01-01T00:00Z[UTC]",
+                "eventDate": "2015-01-01T00:00:00",
                 "eventType": "MD",
                 "payoff": 1000,
                 "notionalPrincipal": "0",
@@ -543,7 +543,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -50,
                 "notionalPrincipal": "0",
@@ -590,7 +590,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00Z[UTC]",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -50,
                 "notionalPrincipal": "0",
@@ -599,7 +599,7 @@
                 "currency": "USD"
             },
             {
-                "eventDate": "2014-10-31T23:59:59Z[UTC]",
+                "eventDate": "2014-10-31T23:59:59",
                 "eventType": "STD",
                 "payoff": -1979.36945970321,
                 "notionalPrincipal": "0",
@@ -646,7 +646,7 @@
                 "currency": "USD"
             },
             {
-                "eventDate": "2014-09-30T00:00",
+                "eventDate": "2014-09-30T00:00:00",
                 "eventType": "MD",
                 "payoff": 2000,
                 "notionalPrincipal": "0",
@@ -655,7 +655,7 @@
                 "currency": "USD"
             },
             {
-                "eventDate": "2014-09-30T00:00",
+                "eventDate": "2014-09-30T00:00:00",
                 "eventType": "MD",
                 "payoff": -1000,
                 "notionalPrincipal": "0",
@@ -787,7 +787,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-08-31T00:00",
+                "eventDate": "2014-08-31T00:00:00",
                 "eventType": "STD",
                 "payoff": 1975.57309945786,
                 "notionalPrincipal": "0",
@@ -826,7 +826,7 @@
         ],
         "results": [
             {
-                "eventDate": "2014-04-01T00:00",
+                "eventDate": "2014-04-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": 50,
                 "notionalPrincipal": "0",

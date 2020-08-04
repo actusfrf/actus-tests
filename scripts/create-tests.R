@@ -86,5 +86,5 @@ for(file in testbeds) {
 	jsonData = prettify(toJSON(cttests,auto_unbox=TRUE,pretty=TRUE,digits=NA) )
 	
 	# write json
-	jsonData %>% write_lines(paste0(json_path,'actus-tests-', terms$contractType[i-1],'.json'))
+	jsonData %>% write_lines(paste0(json_path,'actus-tests-', tolower(terms$contractType[i-1]),'.json'))
 }
