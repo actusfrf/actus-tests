@@ -22,8 +22,8 @@
                         "cycleOfInterestPayment": "P1ML1",
                         "premiumDiscountAtIED": "0"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -41,8 +41,8 @@
                         "cycleOfInterestPayment": "P3ML1",
                         "premiumDiscountAtIED": "0"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -281,8 +281,8 @@
                         "cycleOfInterestPayment": "P1ML1",
                         "premiumDiscountAtIED": "0"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -304,8 +304,8 @@
                         "rateSpread": "0.02",
                         "marketObjectCodeOfRateReset": "US_TREASURY"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -675,8 +675,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P1ML1"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -698,8 +698,8 @@
                         "cycleOfInterestPayment": "P1ML1",
                         "premiumDiscountAtIED": "-200"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -1124,8 +1124,8 @@
                         "cycleOfPrincipalRedemption": "P1ML0",
                         "amortizationDate": "2013-12-15T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -1144,8 +1144,8 @@
                         "cycleOfPrincipalRedemption": "P3ML1",
                         "amortizationDate": "2014-01-01T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -1475,8 +1475,8 @@
                         "cycleOfPrincipalRedemption": "P1ML0",
                         "amortizationDate": "2013-12-15T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -1499,8 +1499,8 @@
                         "rateSpread": "0.1",
                         "marketObjectCodeOfRateReset": "US_TREASURY"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -2012,8 +2012,8 @@
                         "cycleOfPrincipalRedemption": "P1ML0",
                         "amortizationDate": "2014-01-01T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -2036,8 +2036,8 @@
                         "cycleOfPrincipalRedemption": "P2ML0",
                         "amortizationDate": "2014-01-01T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -2497,8 +2497,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P1ML1"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -2517,8 +2517,8 @@
                         "cycleOfPrincipalRedemption": "P1ML0",
                         "amortizationDate": "2013-12-15T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -2904,8 +2904,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P1ML1"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -2928,8 +2928,8 @@
                         "cycleOfPrincipalRedemption": "P1ML0",
                         "amortizationDate": "2014-01-01T00:00:00"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -3420,8 +3420,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P1ML1"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -3438,8 +3438,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P3ML1"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -3634,8 +3634,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P1ML1"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -3652,8 +3652,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P3ML1"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
@@ -3812,8 +3812,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P1ML1"
                     },
-                    "type": "CNT",
-                    "role": "FIL"
+                    "referenceType": "CNT",
+                    "referenceRole": "FIL"
                 },
                 {
                     "object": {
@@ -3830,8 +3830,8 @@
                         "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
                         "cycleOfInterestPayment": "P3ML1"
                     },
-                    "type": "CNT",
-                    "role": "SEL"
+                    "referenceType": "CNT",
+                    "referenceRole": "SEL"
                 }
             ],
             "currency": "USD",
