@@ -1,0 +1,960 @@
+{
+    "lax01": {
+        "identifier": "lax01",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax01",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "maturityDate": "2024-12-31T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2024-12-31T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax02": {
+        "identifier": "lax02",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax02",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "maturityDate": "2024-12-31T00:00:00",
+            "notionalPrincipal": "120",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2024-12-31T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax03": {
+        "identifier": "lax03",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax03",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "maturityDate": "2024-12-31T00:00:00",
+            "notionalPrincipal": " 80",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2024-12-31T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax04": {
+        "identifier": "lax04",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax04",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax05": {
+        "identifier": "lax05",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax05",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "premiumDiscountAtIED": "-10",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax06": {
+        "identifier": "lax06",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax06",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPL",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax07": {
+        "identifier": "lax07",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax07",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "EUR",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.10",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax08": {
+        "identifier": "lax08",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax08",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2021-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax09": {
+        "identifier": "lax09",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax09",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2022-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1YL0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2026-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax10": {
+        "identifier": "lax10",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax10",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P6ML0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2022-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P6ML0",
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2024-07-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax11": {
+        "identifier": "lax11",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax11",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "120",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1ML0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": "2022-01-01T00:00:00",
+            "arrayCycleOfPrincipalRedemption": "P1ML0",
+            "arrayNextPrincipalRedemptionPayment": 10,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2023-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax12": {
+        "identifier": "lax12",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax12",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00",
+                "2025-01-01T00:00:00"
+            ],
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00",
+                "2025-01-01T00:00:00"
+            ],
+            "arrayNextPrincipalRedemptionPayment": 20,
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax13": {
+        "identifier": "lax13",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax13",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00",
+                "2025-01-01T00:00:00"
+            ],
+            "arrayCycleOfInterestPayment": [
+                "P1YL0",
+                "P1YL0",
+                "P1YL0",
+                "P1YL0",
+                "P1YL0"
+            ],
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00",
+                "2025-01-01T00:00:00"
+            ],
+            "arrayCycleOfPrincipalRedemption": [
+                "P1YL0",
+                "P1YL0",
+                "P1YL0",
+                "P1YL0",
+                "P1YL0"
+            ],
+            "arrayNextPrincipalRedemptionPayment": [
+                20,
+                20,
+                20,
+                20,
+                20
+            ],
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2025-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax14": {
+        "identifier": "lax14",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax14",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00"
+            ],
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00"
+            ],
+            "arrayNextPrincipalRedemptionPayment": [
+                10,
+                20,
+                30,
+                40
+            ],
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2024-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax15": {
+        "identifier": "lax15",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax15",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "100",
+            "arrayCycleAnchorDateOfInterestPayment": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00"
+            ],
+            "arrayCycleOfInterestPayment": [
+                "P1QL0",
+                "P2QL0",
+                "P1YL0",
+                "P1YL0"
+            ],
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00"
+            ],
+            "arrayCycleOfPrincipalRedemption": [
+                "P1QL0",
+                "P2QL0",
+                "P1YL0",
+                "P1YL0"
+            ],
+            "arrayNextPrincipalRedemptionPayment": [
+                2.5,
+                5,
+                30,
+                40
+            ],
+            "arrayIncreaseDecrease": "DEC"
+        },
+        "to": "2024-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax16": {
+        "identifier": "lax16",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax16",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "120",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2027-01-01T00:00:00"
+            ],
+            "arrayCycleOfPrincipalRedemption": [
+                "P1YL0",
+                "P1ML0"
+            ],
+            "arrayNextPrincipalRedemptionPayment": [
+                20,
+                20
+            ],
+            "arrayIncreaseDecrease": [
+                "INC",
+                "DEC"
+            ]
+        },
+        "to": "2028-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax17": {
+        "identifier": "lax17",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax17",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "120",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2027-01-01T00:00:00"
+            ],
+            "arrayCycleOfPrincipalRedemption": [
+                "P1YL0",
+                "P1QL0"
+            ],
+            "arrayNextPrincipalRedemptionPayment": [
+                20,
+                80
+            ],
+            "arrayIncreaseDecrease": [
+                "INC",
+                "DEC"
+            ],
+            "arrayCycleAnchorDateOfRateReset": [
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00"
+            ],
+            "arrayRate": [
+                0.06,
+                0.07,
+                0.08
+            ],
+            "arrayFixedVariable": [
+                "FIX",
+                "FIX",
+                "FIX"
+            ]
+        },
+        "to": "2028-01-01T00:00:00",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    },
+    "lax18": {
+        "identifier": "lax18",
+        "terms": {
+            "contractType": "LAX",
+            "contractID": "lax18",
+            "creatorID": "LEI01",
+            "counterpartyID": "LEI02",
+            "statusDate": "2020-01-01T00:00:00",
+            "contractRole": "RPA",
+            "calendar": "NC",
+            "businessDayConvention": "SCF",
+            "endOfMonthConvention": "SD",
+            "currency": "USD",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "initialExchangeDate": "2020-01-02T00:00:00",
+            "notionalPrincipal": "120",
+            "arrayCycleAnchorDateOfInterestPayment": "2021-01-01T00:00:00",
+            "arrayCycleOfInterestPayment": "P1YL0",
+            "nominalInterestRate": "0.05",
+            "dayCountConvention": "30E360",
+            "arrayCycleAnchorDateOfPrincipalRedemption": [
+                "2021-01-01T00:00:00",
+                "2027-01-01T00:00:00"
+            ],
+            "arrayCycleOfPrincipalRedemption": [
+                "P1YL0",
+                "P1QL0"
+            ],
+            "arrayNextPrincipalRedemptionPayment": [
+                20,
+                80
+            ],
+            "arrayIncreaseDecrease": [
+                "INC",
+                "DEC"
+            ],
+            "arrayCycleAnchorDateOfRateReset": [
+                "2022-01-01T00:00:00",
+                "2023-01-01T00:00:00",
+                "2024-01-01T00:00:00"
+            ],
+            "arrayRate": [
+                0.02,
+                0.03,
+                0.04
+            ],
+            "arrayFixedVariable": [
+                "VAR",
+                "VAR",
+                "VAR"
+            ],
+            "marketObjectCodeOfRateReset": "LIBORUSD3M"
+        },
+        "to": "2028-01-01T00:00:00",
+        "dataObserved": {
+            "LIBORUSD3M": {
+                "identifier": "LIBORUSD3M",
+                "data": [
+                    {
+                        "timestamp": "2022-01-01T00:00:00",
+                        "value": "0.01"
+                    },
+                    {
+                        "timestamp": "2023-01-01T00:00:00",
+                        "value": "0.005"
+                    },
+                    {
+                        "timestamp": "2024-01-01T00:00:00",
+                        "value": "0.02"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00",
+                "eventType": "IED",
+                "payoff": -100,
+                "currency": "EUR",
+                "notionalPrincipal": -100,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0
+            }
+        ]
+    }
+}
+

@@ -41,22 +41,32 @@ for(file in testbeds) {
 	# load terms and number of sheets
 	sheets = excel_sheets(file)
 	terms=read_excel(file, sheet=sheets[1])
-	terms[is.na(terms)]=""
+	#terms[is.na(terms)]=""
 	colnames(terms)=tocamel(colnames(terms),delim=".")
 	terms$contractID=as.character(terms$contractID)	
 	# convert external data to json and separate from terms
 	to = terms$to
 	dataObserved=lapply(terms$dataObserved, function(data) {
-			if(data=="") fromJSON("{}") else fromJSON(data)
+			if(is.na(data)) fromJSON("{}") else fromJSON(data)
 		})
 	eventsObserved=lapply(terms$eventsObserved, function(data) {
-			if(data=="") fromJSON("[]") else fromJSON(data)
+			if(is.na(data)) fromJSON("[]") else fromJSON(data)
 		})
 	terms = terms[-which(colnames(terms)%in%c("to","dataObserved","eventsObserved"))]
 	# convert terms data.frame to list and contractStructure term to json, and remove null-valued terms
 	terms_norm=apply(terms,1,function(test) {
-		test_norm=as.list(test[as.character(test)!=""])
+		test_norm=as.list(test[!is.na(test)])
 		if("contractStructure"%in%names(test_norm)) test_norm[["contractStructure"]]=fromJSON(test_norm[["contractStructure"]])
+		if("arrayCycleAnchorDateOfInterestPayment"%in%names(test_norm)) test_norm[["arrayCycleAnchorDateOfInterestPayment"]]=fromJSON(test_norm[["arrayCycleAnchorDateOfInterestPayment"]])
+		if("arrayCycleOfInterestPayment"%in%names(test_norm)) test_norm[["arrayCycleOfInterestPayment"]]=fromJSON(test_norm[["arrayCycleOfInterestPayment"]])
+		if("arrayCycleAnchorDateOfPrincipalRedemption"%in%names(test_norm)) test_norm[["arrayCycleAnchorDateOfPrincipalRedemption"]]=fromJSON(test_norm[["arrayCycleAnchorDateOfPrincipalRedemption"]])
+		if("arrayCycleOfPrincipalRedemption"%in%names(test_norm)) test_norm[["arrayCycleOfPrincipalRedemption"]]=fromJSON(test_norm[["arrayCycleOfPrincipalRedemption"]])
+		if("arrayNextPrincipalRedemptionPayment"%in%names(test_norm)) test_norm[["arrayNextPrincipalRedemptionPayment"]]=fromJSON(test_norm[["arrayNextPrincipalRedemptionPayment"]])
+		if("arrayIncreaseDecrease"%in%names(test_norm)) test_norm[["arrayIncreaseDecrease"]]=fromJSON(test_norm[["arrayIncreaseDecrease"]])
+		if("arrayCycleAnchorDateOfRateReset"%in%names(test_norm)) test_norm[["arrayCycleAnchorDateOfRateReset"]]=fromJSON(test_norm[["arrayCycleAnchorDateOfRateReset"]])
+		if("arrayCycleOfRateReset"%in%names(test_norm)) test_norm[["arrayCycleOfRateReset"]]=fromJSON(test_norm[["arrayCycleOfRateReset"]])
+		if("arrayRate"%in%names(test_norm)) test_norm[["arrayRate"]]=fromJSON(test_norm[["arrayRate"]])
+		if("arrayFixedVariable"%in%names(test_norm)) test_norm[["arrayFixedVariable"]]=fromJSON(test_norm[["arrayFixedVariable"]])
 		return(test_norm)
 	})
 	
