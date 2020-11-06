@@ -18,7 +18,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P1M"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -65,7 +65,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P2M"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -166,7 +166,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P2M"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -233,7 +233,7 @@
             "cycleOfInterestPayment": "P15DL1",
             "nominalInterestRate": "0.12",
             "dayCountConvention": "AAISDA",
-            "accruedInterest": "5",
+            "accruedInterest": " 5",
             "currency": "USD",
             "contractDealDate": "2015-07-18T00:00:00",
             "initialExchangeDate": "2015-07-20T00:00:00",
@@ -241,7 +241,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P1M"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -317,7 +317,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -455,7 +455,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -574,7 +574,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",
@@ -761,7 +761,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "EUR_Prim"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "EUR_Prim": {
                 "identifier": "EUR_Prim",
@@ -904,7 +904,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "EUR_Prim"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "EUR_Prim": {
                 "identifier": "EUR_Prim",
@@ -1256,7 +1256,7 @@
             "cycleOfRateReset": "P15DL1",
             "marketObjectCodeOfRateReset": "EUR_Prim"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "EUR_Prim": {
                 "identifier": "EUR_Prim",
@@ -1374,7 +1374,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P9M"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1475,7 +1475,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P2M"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1538,7 +1538,7 @@
             "notionalPrincipal": "1000",
             "xDayNotice": "P0D"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1610,7 +1610,7 @@
             "cycleOfRateReset": "P1WL1",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1707,7 +1707,7 @@
             "cycleAnchorDateOfRateReset": "2015-09-01T00:00:00",
             "marketObjectCodeOfRateReset": "USD_Treasury"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_Treasury": {
                 "identifier": "USD_Treasury",

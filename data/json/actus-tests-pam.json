@@ -19,7 +19,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -184,7 +184,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -295,7 +295,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPL"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -460,7 +460,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -626,7 +626,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -784,7 +784,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -942,7 +942,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1100,7 +1100,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1258,7 +1258,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1416,7 +1416,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1574,7 +1574,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1734,7 +1734,7 @@
             "priceAtPurchaseDate": "1000",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1857,14 +1857,14 @@
             "nominalInterestRate": "0.1",
             "cycleAnchorDateOfInterestPayment": "2013-01-09T00:00:00",
             "cycleOfInterestPayment": "P3ML0",
-            "accruedInterest": "0",
+            "accruedInterest": " 0",
             "dayCountConvention": "AA",
             "endOfMonthConvention": "SD",
             "premiumDiscountAtIED": "   0",
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -1940,7 +1940,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -2105,7 +2105,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -2261,7 +2261,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -2345,7 +2345,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -2529,7 +2529,7 @@
             "capitalizationEndDate": "2013-05-20T00:00:00",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -2707,7 +2707,7 @@
             "priceAtPurchaseDate": "1000",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -2840,7 +2840,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3065,7 +3065,7 @@
             "rateMultiplier": "2.5",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3290,7 +3290,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3515,7 +3515,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3775,7 +3775,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },

@@ -15,7 +15,7 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -60,7 +60,7 @@
             "contractDealDate": "2013-12-20T00:00:00",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -95,9 +95,9 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "terminationDate": "2014-09-30T23:59:59",
-            "priceAtTerminationDate": "100"
+            "priceAtTerminationDate": " 100"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -132,10 +132,10 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "terminationDate": "2014-09-30T23:59:59",
-            "priceAtTerminationDate": "100",
+            "priceAtTerminationDate": " 100",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -170,9 +170,9 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "purchaseDate": "2014-04-01T00:00:00",
-            "priceAtPurchaseDate": "50"
+            "priceAtPurchaseDate": " 50"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -225,11 +225,11 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "purchaseDate": "2014-04-01T00:00:00",
-            "priceAtPurchaseDate": "50",
+            "priceAtPurchaseDate": " 50",
             "terminationDate": "2014-09-30T23:59:59",
-            "priceAtTerminationDate": "100"
+            "priceAtTerminationDate": " 100"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -273,10 +273,10 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "purchaseDate": "2014-04-01T00:00:00",
-            "priceAtPurchaseDate": "50",
+            "priceAtPurchaseDate": " 50",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -320,7 +320,7 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -365,7 +365,7 @@
             "contractDealDate": "2013-12-20T00:00:00",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -400,9 +400,9 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "terminationDate": "2014-09-30T23:59:59",
-            "priceAtTerminationDate": "100"
+            "priceAtTerminationDate": " 100"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -437,10 +437,10 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "terminationDate": "2014-09-30T23:59:59",
-            "priceAtTerminationDate": "100",
+            "priceAtTerminationDate": " 100",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -475,9 +475,9 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "purchaseDate": "2014-04-01T00:00:00",
-            "priceAtPurchaseDate": "50"
+            "priceAtPurchaseDate": " 50"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -530,11 +530,11 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "purchaseDate": "2014-04-01T00:00:00",
-            "priceAtPurchaseDate": "50",
+            "priceAtPurchaseDate": " 50",
             "terminationDate": "2014-09-30T23:59:59",
-            "priceAtTerminationDate": "100"
+            "priceAtTerminationDate": " 100"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -578,10 +578,10 @@
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
             "purchaseDate": "2014-04-01T00:00:00",
-            "priceAtPurchaseDate": "50",
+            "priceAtPurchaseDate": " 50",
             "settlementDate": "2014-10-31T23:59:59"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -624,11 +624,11 @@
             "endOfMonthConvention": "SD",
             "statusDate": "2013-12-15T00:00:00",
             "contractDealDate": "2013-12-10T00:00:00",
-            "priceAtPurchaseDate": "0",
+            "priceAtPurchaseDate": "  0",
             "terminationDate": "2014-06-15T23:59:59",
-            "priceAtTerminationDate": "100"
+            "priceAtTerminationDate": " 100"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -680,10 +680,10 @@
             "endOfMonthConvention": "SD",
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
-            "priceAtPurchaseDate": "0",
-            "priceAtTerminationDate": "0"
+            "priceAtPurchaseDate": "  0",
+            "priceAtTerminationDate": "   0"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -727,10 +727,10 @@
             "endOfMonthConvention": "SD",
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
-            "priceAtPurchaseDate": "0",
-            "priceAtTerminationDate": "0"
+            "priceAtPurchaseDate": "  0",
+            "priceAtTerminationDate": "   0"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -774,11 +774,11 @@
             "endOfMonthConvention": "SD",
             "statusDate": "2013-12-30T00:00:00",
             "contractDealDate": "2013-12-20T00:00:00",
-            "priceAtPurchaseDate": "0",
-            "priceAtTerminationDate": "0",
+            "priceAtPurchaseDate": "  0",
+            "priceAtTerminationDate": "   0",
             "settlementDate": "2014-08-31T00:00:00"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -817,7 +817,7 @@
             "terminationDate": "2014-09-30T23:59:59",
             "priceAtTerminationDate": "-100"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },

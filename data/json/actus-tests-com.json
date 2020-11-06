@@ -13,7 +13,7 @@
             "quantity": "2",
             "unit": "BRL"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -43,11 +43,11 @@
             "priceAtTerminationDate": "900",
             "contractRole": "RPA",
             "currency": "USD",
-            "marketValueObserved": "50",
+            "marketValueObserved": " 50",
             "quantity": "2",
             "unit": "BRL"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -83,7 +83,7 @@
             "quantity": "3",
             "unit": "BRL"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -128,7 +128,7 @@
             "quantity": "3",
             "unit": "BRL"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },

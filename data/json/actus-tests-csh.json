@@ -9,7 +9,7 @@
             "currency": "CHF",
             "notionalPrincipal": "1000"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -42,7 +42,7 @@
             "currency": "USD",
             "notionalPrincipal": "1200"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -75,7 +75,7 @@
             "currency": "CHF",
             "notionalPrincipal": "2000"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },
@@ -108,7 +108,7 @@
             "currency": "USD",
             "notionalPrincipal": "2500"
         },
-        "to": "",
+        "to": null,
         "dataObserved": {
 
         },

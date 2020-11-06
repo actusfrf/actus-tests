@@ -2598,7 +2598,7 @@
             "nominalInterestRate2": "0.08",
             "dayCountConvention": "A365",
             "purchaseDate": "2015-03-15T23:59:59",
-            "priceAtPurchaseDate": "50",
+            "priceAtPurchaseDate": " 50",
             "terminationDate": "2015-07-01T00:00:00",
             "priceAtTerminationDate": "600",
             "cycleAnchorDateOfRateReset": "2015-07-01T00:00:00",
