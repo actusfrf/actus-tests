@@ -22,7 +22,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-03-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -83,21 +83,21 @@
                 "exerciseAmount": 0
             },
             {
-                "eventDate": "2020-06-30T00:00:00",
+                "eventDate": "2020-03-30T00:00:00",
                 "eventType": "XD",
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "exerciseDate": "2020-06-30T00:00:00",
+                "exerciseDate": "2020-03-30T00:00:00",
                 "exerciseAmount": -16.3
             },
             {
-                "eventDate": "2020-06-30T00:00:00",
+                "eventDate": "2020-03-30T00:00:00",
                 "eventType": "STD",
                 "payoff": -16.3,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "exerciseDate": "2020-06-30T00:00:00",
+                "exerciseDate": "2020-03-30T00:00:00",
                 "exerciseAmount": -16.3
             }
         ]
@@ -125,7 +125,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-06-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -229,7 +229,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -333,7 +333,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -437,7 +437,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "3D",
+            "settlementPeriod": "P3D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -542,7 +542,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "3D",
+            "settlementPeriod": "P3D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -647,7 +647,7 @@
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": " 80",
-            "settlementPeriod": "3D",
+            "settlementPeriod": "P3D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -751,7 +751,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-03-30T00:00:00",
             "futuresPrice": "160",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -855,7 +855,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-06-30T00:00:00",
             "futuresPrice": "160",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -959,7 +959,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": "160",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -1063,7 +1063,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": "200",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -1167,7 +1167,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": "250",
-            "settlementPeriod": "0D",
+            "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
         "to": "2020-12-31T00:00:00",
@@ -1270,7 +1270,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
             "futuresPrice": "200",
-            "settlementPeriod": "5D",
+            "settlementPeriod": "P5D",
             "deliverySettlement": "S",
             "exerciseDate": "2020-09-30T00:00:00",
             "exerciseAmount": "10.33"
@@ -1350,7 +1350,7 @@
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-10-03T00:00:00",
             "futuresPrice": "200",
-            "settlementPeriod": "5D",
+            "settlementPeriod": "P5D",
             "deliverySettlement": "S",
             "exerciseDate": "2020-10-03T00:00:00",
             "exerciseAmount": "10.33"
