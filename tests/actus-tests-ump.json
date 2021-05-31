@@ -45,7 +45,7 @@
             "notionalPrincipal": "  1000",
             "cycleAnchorDateOfInterestPayment": "2013-01-25T00:00:00",
             "cycleOfInterestPayment": "P1ML1",
-            "nominalInterestRate": " 0.010",
+            "nominalInterestRate": "0.01",
             "dayCountConvention": "30E360",
             "xDayNotice": "P1M"
         },
@@ -189,7 +189,7 @@
             "notionalPrincipal": "  1000",
             "cycleAnchorDateOfInterestPayment": "2013-01-25T00:00:00",
             "cycleOfInterestPayment": "P1ML1",
-            "nominalInterestRate": " 0.010",
+            "nominalInterestRate": "0.01",
             "dayCountConvention": "AA",
             "xDayNotice": "P1M"
         },
@@ -333,7 +333,7 @@
             "notionalPrincipal": "  1000",
             "cycleAnchorDateOfInterestPayment": "2014-01-01T00:00:00",
             "cycleOfInterestPayment": "P1YL1",
-            "nominalInterestRate": " 0.010",
+            "nominalInterestRate": "0.01",
             "dayCountConvention": "30E360",
             "xDayNotice": "P1M"
         },
@@ -803,7 +803,7 @@
                 "payoff": 89820.2025273646,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "nominalInterestRate": 0,
+                "nominalInterestRate": -0.005,
                 "accruedInterest": 0
             }
         ]

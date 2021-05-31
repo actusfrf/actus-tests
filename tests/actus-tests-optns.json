@@ -1,9 +1,9 @@
 {
-    "future01": {
-        "identifier": "future01",
+    "option01": {
+        "identifier": "option01",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future01",
+            "contractType": "OPTNS",
+            "contractID": "option01",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -21,7 +21,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-03-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -88,25 +90,23 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "exerciseDate": "2020-03-30T00:00:00",
-                "exerciseAmount": -16.3
+                "exerciseAmount": 0
             },
             {
                 "eventDate": "2020-03-30T00:00:00",
                 "eventType": "STD",
-                "payoff": -16.3,
+                "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "exerciseDate": "2020-03-30T00:00:00",
-                "exerciseAmount": -16.3
+                "exerciseAmount": 0
             }
         ]
     },
-    "future02": {
-        "identifier": "future02",
+    "option02": {
+        "identifier": "option02",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future02",
+            "contractType": "OPTNS",
+            "contractID": "option02",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -124,7 +124,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-06-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -202,15 +204,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-06-30T00:00:00",
-                "exerciseAmount": 11.2
+                "exerciseAmount": 0
             }
         ]
     },
-    "future03": {
-        "identifier": "future03",
+    "option03": {
+        "identifier": "option03",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future03",
+            "contractType": "OPTNS",
+            "contractID": "option03",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -228,7 +230,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -306,15 +310,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 35.81
+                "exerciseAmount": 0
             }
         ]
     },
-    "future04": {
-        "identifier": "future04",
+    "option04": {
+        "identifier": "option04",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future04",
+            "contractType": "OPTNS",
+            "contractID": "option04",
             "contractRole": "SEL",
             "contractStructure": [
                 {
@@ -332,7 +336,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -410,15 +416,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 35.81
+                "exerciseAmount": 0
             }
         ]
     },
-    "future05": {
-        "identifier": "future05",
+    "option05": {
+        "identifier": "option05",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future05",
+            "contractType": "OPTNS",
+            "contractID": "option05",
             "contractRole": "SEL",
             "contractStructure": [
                 {
@@ -436,7 +442,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P3D",
             "deliverySettlement": "S"
         },
@@ -514,15 +522,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 35.81
+                "exerciseAmount": 0
             }
         ]
     },
-    "future06": {
-        "identifier": "future06",
+    "option06": {
+        "identifier": "option06",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future06",
+            "contractType": "OPTNS",
+            "contractID": "option06",
             "contractRole": "SEL",
             "contractStructure": [
                 {
@@ -541,7 +549,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P3D",
             "deliverySettlement": "S"
         },
@@ -619,15 +629,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 35.81
+                "exerciseAmount": 0
             }
         ]
     },
-    "future07": {
-        "identifier": "future07",
+    "option07": {
+        "identifier": "option07",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future07",
+            "contractType": "OPTNS",
+            "contractID": "option07",
             "contractRole": "SEL",
             "contractStructure": [
                 {
@@ -646,7 +656,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "10",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": " 80",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": " 80",
             "settlementPeriod": "P3D",
             "deliverySettlement": "S"
         },
@@ -718,21 +730,21 @@
                 "exerciseAmount": 35.81
             },
             {
-                "eventDate": "2020-09-30T00:00:00",
+                "eventDate": "2020-10-02T00:00:00",
                 "eventType": "STD",
                 "payoff": -35.81,
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 35.81
+                "exerciseAmount": 0
             }
         ]
     },
-    "future08": {
-        "identifier": "future08",
+    "option08": {
+        "identifier": "option08",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future08",
+            "contractType": "OPTNS",
+            "contractID": "option08",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -750,7 +762,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-03-30T00:00:00",
-            "futuresPrice": "160",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "160",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -828,15 +842,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-03-30T00:00:00",
-                "exerciseAmount": 0.23
+                "exerciseAmount": 0
             }
         ]
     },
-    "future09": {
-        "identifier": "future09",
+    "option09": {
+        "identifier": "option09",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future09",
+            "contractType": "OPTNS",
+            "contractID": "option09",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -854,7 +868,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-06-30T00:00:00",
-            "futuresPrice": "160",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "160",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -932,15 +948,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-06-30T00:00:00",
-                "exerciseAmount": 43.5
+                "exerciseAmount": 0
             }
         ]
     },
-    "future10": {
-        "identifier": "future10",
+    "option10": {
+        "identifier": "option10",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future10",
+            "contractType": "OPTNS",
+            "contractID": "option10",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -958,7 +974,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": "160",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "160",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -1036,15 +1054,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 50.33
+                "exerciseAmount": 0
             }
         ]
     },
-    "future11": {
-        "identifier": "future11",
+    "option11": {
+        "identifier": "option11",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future11",
+            "contractType": "OPTNS",
+            "contractID": "option11",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -1062,7 +1080,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": "200",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "200",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -1140,15 +1160,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 10.33
+                "exerciseAmount": 0
             }
         ]
     },
-    "future12": {
-        "identifier": "future12",
+    "option12": {
+        "identifier": "option12",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future12",
+            "contractType": "OPTNS",
+            "contractID": "option12",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -1166,7 +1186,9 @@
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": "250",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "250",
             "settlementPeriod": "P0D",
             "deliverySettlement": "S"
         },
@@ -1233,25 +1255,23 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": -39.67
+                "exerciseAmount": 0
             },
             {
                 "eventDate": "2020-09-30T00:00:00",
                 "eventType": "STD",
-                "payoff": -39.67,
+                "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": -39.67
+                "exerciseAmount": 0
             }
         ]
     },
-    "future13": {
-        "identifier": "future13",
+    "option13": {
+        "identifier": "option13",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future13",
+            "contractType": "OPTNS",
+            "contractID": "option13",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -1265,11 +1285,13 @@
             "currency": "USD",
             "calendar": "NC",
             "contractDealDate": "2020-01-01T00:00:00",
-            "statusDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-09-30T00:00:00",
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-09-30T00:00:00",
-            "futuresPrice": "200",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "200",
             "settlementPeriod": "P5D",
             "deliverySettlement": "S",
             "exerciseDate": "2020-09-30T00:00:00",
@@ -1323,15 +1345,15 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-09-30T00:00:00",
-                "exerciseAmount": 10.33
+                "exerciseAmount": 0
             }
         ]
     },
-    "future14": {
-        "identifier": "future14",
+    "option14": {
+        "identifier": "option14",
         "terms": {
-            "contractType": "FUTUR",
-            "contractID": "future14",
+            "contractType": "OPTNS",
+            "contractID": "option14",
             "contractRole": "BUY",
             "contractStructure": [
                 {
@@ -1345,11 +1367,13 @@
             "currency": "USD",
             "calendar": "NC",
             "contractDealDate": "2020-01-01T00:00:00",
-            "statusDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-10-03T00:00:00",
             "purchaseDate": "2020-01-02T00:00:00",
             "priceAtPurchaseDate": "20",
             "maturityDate": "2020-10-03T00:00:00",
-            "futuresPrice": "200",
+            "optionExerciseType": "E",
+            "optionType": "C",
+            "optionStrike1": "200",
             "settlementPeriod": "P5D",
             "deliverySettlement": "S",
             "exerciseDate": "2020-10-03T00:00:00",
@@ -1403,9 +1427,944 @@
                 "currency": "USD",
                 "notionalPrincipal": 0,
                 "exerciseDate": "2020-10-03T00:00:00",
-                "exerciseAmount": 10.33
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option15": {
+        "identifier": "option15",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option15",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "AAPL"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "10",
+            "maturityDate": "2020-03-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": " 80",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -10,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-03-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-03-30T00:00:00",
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-03-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-03-30T00:00:00",
+                "exerciseAmount": 16.3
+            },
+            {
+                "eventDate": "2020-03-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 16.3,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-03-30T00:00:00",
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option16": {
+        "identifier": "option16",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option16",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "AAPL"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "10",
+            "maturityDate": "2020-06-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": " 80",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -10,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-06-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-06-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-06-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option17": {
+        "identifier": "option17",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option17",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "AAPL"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "10",
+            "maturityDate": "2020-09-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": " 80",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -10,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option18": {
+        "identifier": "option18",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option18",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "MSFT"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "20",
+            "maturityDate": "2020-03-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": "160",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -20,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-03-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-03-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-03-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option19": {
+        "identifier": "option19",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option19",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "MSFT"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "20",
+            "maturityDate": "2020-06-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": "160",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -20,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-06-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-06-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-06-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option20": {
+        "identifier": "option20",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option20",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "MSFT"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "20",
+            "maturityDate": "2020-09-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": "160",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -20,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option21": {
+        "identifier": "option21",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option21",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "MSFT"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "20",
+            "maturityDate": "2020-09-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": "200",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -20,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option22": {
+        "identifier": "option22",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option22",
+            "contractRole": "BUY",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "MSFT"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "20",
+            "maturityDate": "2020-09-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": "250",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": -20,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-09-30T00:00:00",
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-09-30T00:00:00",
+                "exerciseAmount": 39.67
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "STD",
+                "payoff": 39.67,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-09-30T00:00:00",
+                "exerciseAmount": 0
+            }
+        ]
+    },
+    "option23": {
+        "identifier": "option23",
+        "terms": {
+            "contractType": "OPTNS",
+            "contractID": "option23",
+            "contractRole": "SEL",
+            "contractStructure": [
+                {
+                    "object": {
+                        "marketObjectCode": "MSFT"
+                    },
+                    "referenceType": "MOC",
+                    "referenceRole": "UDL"
+                }
+            ],
+            "currency": "USD",
+            "calendar": "NC",
+            "contractDealDate": "2020-01-01T00:00:00",
+            "statusDate": "2020-01-01T00:00:00",
+            "purchaseDate": "2020-01-02T00:00:00",
+            "priceAtPurchaseDate": "20",
+            "maturityDate": "2020-09-30T00:00:00",
+            "optionExerciseType": "E",
+            "optionType": "P",
+            "optionStrike1": "250",
+            "settlementPeriod": "P0D",
+            "deliverySettlement": "S"
+        },
+        "to": "2020-12-31T00:00:00",
+        "dataObserved": {
+            "AAPL": {
+                "identifier": "AAPL",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "63.70"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "91.20"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "115.81"
+                    }
+                ]
+            },
+            "MSFT": {
+                "identifier": "MSFT",
+                "data": [
+                    {
+                        "timestamp": "2020-03-30T00:00:00",
+                        "value": "160.23"
+                    },
+                    {
+                        "timestamp": "2020-06-30T00:00:00",
+                        "value": "203.50"
+                    },
+                    {
+                        "timestamp": "2020-09-30T00:00:00",
+                        "value": "210.33"
+                    }
+                ]
+            }
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventDate": "2020-01-02T00:00:00",
+                "eventType": "PRD",
+                "payoff": 20,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "MD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-09-30T00:00:00",
+                "exerciseAmount": 0
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "XD",
+                "payoff": 0,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-09-30T00:00:00",
+                "exerciseAmount": 39.67
+            },
+            {
+                "eventDate": "2020-09-30T00:00:00",
+                "eventType": "STD",
+                "payoff": -39.67,
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "exerciseDate": "2020-09-30T00:00:00",
+                "exerciseAmount": 0
             }
         ]
     }
 }
-

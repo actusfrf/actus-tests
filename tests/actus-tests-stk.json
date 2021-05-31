@@ -25,7 +25,10 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -1100,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -55,7 +58,10 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -1200,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -85,7 +91,10 @@
                 "eventDate": "2014-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": 1000,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -117,13 +126,19 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -1200,
-                "currency": "EUR"
+                "currency": "EUR",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-12-31T23:59:59",
                 "eventType": "TD",
                 "payoff": 3000,
-                "currency": "EUR"
+                "currency": "EUR",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -155,13 +170,19 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": 1200,
-                "currency": "CHF"
+                "currency": "CHF",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-12-31T23:59:59",
                 "eventType": "TD",
                 "payoff": -3000,
-                "currency": "CHF"
+                "currency": "CHF",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -278,127 +299,190 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -1200,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-04-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-07-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-04-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-07-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-04-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-07-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-04-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-07-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-04-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-07-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -519,133 +603,199 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "PRD",
                 "payoff": -1200,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-09-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-12-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-03-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-09-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-12-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-03-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-09-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-12-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-03-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-09-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-12-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-03-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-09-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-12-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-03-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -744,97 +894,145 @@
                 "eventDate": "2013-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2013-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-02-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-02-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-02-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-02-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2017-10-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-02-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-06-01T00:00:00",
                 "eventType": "DV",
                 "payoff": -25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -848,7 +1046,7 @@
             "statusDate": "2012-12-30T00:00:00",
             "notionalPrincipal": "1000",
             "currency": "USD",
-            "calendar": "MondayToFriday",
+            "calendar": "MF",
             "businessDayConvention": "SCF",
             "endOfMonthConvention": "EOM",
             "cycleAnchorDateOfDividendPayment": "2013-01-01T00:00:00",
@@ -895,37 +1093,55 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
-                "eventDate": "2017-01-01T00:00:00",
+                "eventDate": "2017-01-02T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 25,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     },
@@ -939,7 +1155,7 @@
             "statusDate": "2012-12-30T00:00:00",
             "notionalPrincipal": "1000",
             "currency": "USD",
-            "calendar": "MondayToFriday",
+            "calendar": "MF",
             "businessDayConvention": "SCF",
             "endOfMonthConvention": "EOM",
             "cycleAnchorDateOfDividendPayment": "2013-01-01T00:00:00",
@@ -986,37 +1202,55 @@
                 "eventDate": "2013-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 10,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2014-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 15,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2015-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 5,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2016-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 20,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
-                "eventDate": "2017-01-01T00:00:00",
+                "eventDate": "2017-01-02T00:00:00",
                 "eventType": "DV",
                 "payoff": 10,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             },
             {
                 "eventDate": "2018-01-01T00:00:00",
                 "eventType": "DV",
                 "payoff": 0,
-                "currency": "USD"
+                "currency": "USD",
+                "notionalPrincipal": 0,
+                "nominalInterestRate": 0,
+                "accruedInterest": 0
             }
         ]
     }

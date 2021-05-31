@@ -19,7 +19,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -184,7 +184,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -295,7 +295,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPL"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -460,7 +460,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -626,7 +626,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -784,7 +784,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -942,7 +942,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1100,7 +1100,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1258,7 +1258,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1416,7 +1416,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1574,7 +1574,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1734,7 +1734,7 @@
             "priceAtPurchaseDate": "1000",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1857,14 +1857,14 @@
             "nominalInterestRate": "0.1",
             "cycleAnchorDateOfInterestPayment": "2013-01-09T00:00:00",
             "cycleOfInterestPayment": "P3ML0",
-            "accruedInterest": " 0",
+            "accruedInterest": "0",
             "dayCountConvention": "AA",
             "endOfMonthConvention": "SD",
             "premiumDiscountAtIED": "   0",
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -1940,7 +1940,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -2105,7 +2105,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -2261,7 +2261,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -2345,7 +2345,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -2529,7 +2529,7 @@
             "capitalizationEndDate": "2013-05-20T00:00:00",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -2686,8 +2686,102 @@
     "pam19": {
         "identifier": "pam19",
         "terms": {
+            "calendar": "MF",
+            "businessDayConvention": "SCF",
             "contractType": "PAM",
+            "statusDate": "2012-12-31T00:00:00",
+            "contractRole": "RPA",
             "contractID": "pam19",
+            "cycleAnchorDateOfInterestPayment": "2013-01-01T00:00:00",
+            "cycleOfInterestPayment": "P6ML1",
+            "nominalInterestRate": 0.05,
+            "dayCountConvention": "30E360",
+            "capitalizationEndDate": "2013-07-01T00:00:00",
+            "currency": "CHF",
+            "contractDealDate": "2012-12-31T00:00:00",
+            "initialExchangeDate": "2013-01-01T00:00:00",
+            "premiumDiscountAtIED": 0,
+            "maturityDate": "2014-12-31T00:00:00",
+            "notionalPrincipal": 1000
+        },
+        "to": "",
+        "dataObserved": {
+
+        },
+        "eventsObserved": [
+
+        ],
+        "results": [
+            {
+                "eventType": "IED",
+                "eventDate": "2013-01-01T00:00",
+                "payoff": -1000.0,
+                "currency": "CHF",
+                "notionalPrincipal": 1000.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            },
+            {
+                "eventType": "IPCI",
+                "eventDate": "2013-01-01T00:00",
+                "payoff": 0.0,
+                "currency": "CHF",
+                "notionalPrincipal": 1000.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            },
+            {
+                "eventType": "IPCI",
+                "eventDate": "2013-07-01T00:00",
+                "payoff": 0.0,
+                "currency": "CHF",
+                "notionalPrincipal": 1025.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            },
+            {
+                "eventType": "IP",
+                "eventDate": "2014-01-01T00:00",
+                "payoff": 25.625,
+                "currency": "CHF",
+                "notionalPrincipal": 1025.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            },
+            {
+                "eventType": "IP",
+                "eventDate": "2014-07-01T00:00",
+                "payoff": 25.625,
+                "currency": "CHF",
+                "notionalPrincipal": 1025.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            },
+            {
+                "eventType": "IP",
+                "eventDate": "2014-12-31T00:00",
+                "payoff": 25.48263888888889,
+                "currency": "CHF",
+                "notionalPrincipal": 1025.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            },
+            {
+                "eventType": "MD",
+                "eventDate": "2014-12-31T00:00",
+                "payoff": 1025.0,
+                "currency": "CHF",
+                "notionalPrincipal": 0.0,
+                "nominalInterestRate": 0.05,
+                "accruedInterest": 0.0
+            }
+        ]
+    },
+    "pam20": {
+        "identifier": "pam20",
+        "terms": {
+            "contractType": "PAM",
+            "contractID": "pam20",
             "statusDate": "2012-12-30T00:00:00",
             "contractDealDate": "2012-01-30T00:00:00",
             "currency": "USD",
@@ -2707,7 +2801,7 @@
             "priceAtPurchaseDate": "1000",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },
@@ -2816,11 +2910,11 @@
             }
         ]
     },
-    "pam20": {
-        "identifier": "pam20",
+    "pam21": {
+        "identifier": "pam21",
         "terms": {
             "contractType": "PAM",
-            "contractID": "pam20",
+            "contractID": "pam21",
             "statusDate": "2012-12-30T00:00:00",
             "contractDealDate": "2012-12-28T00:00:00",
             "currency": "USD",
@@ -2833,14 +2927,14 @@
             "cycleAnchorDateOfRateReset": "2013-02-01T00:00:00",
             "cycleOfRateReset": "P3ML1",
             "rateSpread": "0.02",
-            "marketObjectCodeRateReset": "USD_SWP",
+            "marketObjectCodeOfRateReset": "USD_SWP",
             "dayCountConvention": "30E360",
             "endOfMonthConvention": "SD",
             "premiumDiscountAtIED": "-200",
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3041,11 +3135,11 @@
             }
         ]
     },
-    "pam21": {
-        "identifier": "pam21",
+    "pam22": {
+        "identifier": "pam22",
         "terms": {
             "contractType": "PAM",
-            "contractID": "pam21",
+            "contractID": "pam22",
             "statusDate": "2012-12-30T00:00:00",
             "contractDealDate": "2012-12-28T00:00:00",
             "currency": "USD",
@@ -3058,14 +3152,14 @@
             "cycleAnchorDateOfRateReset": "2013-02-01T00:00:00",
             "cycleOfRateReset": "P3ML1",
             "rateSpread": "0.02",
-            "marketObjectCodeRateReset": "USD_SWP",
+            "marketObjectCodeOfRateReset": "USD_SWP",
             "dayCountConvention": "30E360",
             "endOfMonthConvention": "SD",
             "premiumDiscountAtIED": "-200",
             "rateMultiplier": "2.5",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3126,34 +3220,34 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0445679012362945,
+                "nominalInterestRate": 0.0445679012345679,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-03-01T00:00",
                 "eventType": "IP",
-                "payoff": 11.1419753090736,
+                "payoff": 11.141975308641975,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0445679012362945,
+                "nominalInterestRate": 0.0445679012345679,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-04-01T00:00",
                 "eventType": "IP",
-                "payoff": 11.1419753090736,
+                "payoff": 11.141975308641975,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0445679012362945,
+                "nominalInterestRate": 0.0445679012345679,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-05-01T00:00",
                 "eventType": "IP",
-                "payoff": 11.1419753090736,
+                "payoff": 11.141975308641975,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0445679012362945,
+                "nominalInterestRate": 0.0445679012345679,
                 "accruedInterest": 0
             },
             {
@@ -3162,34 +3256,34 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0473456790074544,
+                "nominalInterestRate": 0.04734567901234568,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-06-01T00:00",
                 "eventType": "IP",
-                "payoff": 11.8364197518636,
+                "payoff": 11.836419753086421,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0473456790074544,
+                "nominalInterestRate": 0.04734567901234568,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-07-01T00:00",
                 "eventType": "IP",
-                "payoff": 11.8364197518636,
+                "payoff": 11.836419753086421,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0473456790074544,
+                "nominalInterestRate": 0.04734567901234568,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-08-01T00:00",
                 "eventType": "IP",
-                "payoff": 11.8364197518636,
+                "payoff": 11.836419753086421,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0473456790074544,
+                "nominalInterestRate": 0.04734567901234568,
                 "accruedInterest": 0
             },
             {
@@ -3198,34 +3292,34 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0501234567901235,
+                "nominalInterestRate": 0.05012345679012345,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-09-01T00:00",
                 "eventType": "IP",
-                "payoff": 12.5308641975309,
+                "payoff": 12.53086419753086,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0501234567901235,
+                "nominalInterestRate": 0.05012345679012345,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-10-01T00:00",
                 "eventType": "IP",
-                "payoff": 12.5308641975309,
+                "payoff": 12.53086419753086,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0501234567901235,
+                "nominalInterestRate": 0.05012345679012345,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-11-01T00:00",
                 "eventType": "IP",
-                "payoff": 12.5308641975309,
+                "payoff": 12.53086419753086,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0501234567901235,
+                "nominalInterestRate": 0.05012345679012345,
                 "accruedInterest": 0
             },
             {
@@ -3234,25 +3328,25 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0529012345679012,
+                "nominalInterestRate": 0.052901234567901245,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2013-12-01T00:00",
                 "eventType": "IP",
-                "payoff": 13.2253086419753,
+                "payoff": 13.225308641975312,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0529012345679012,
+                "nominalInterestRate": 0.052901234567901245,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2014-01-01T00:00",
                 "eventType": "IP",
-                "payoff": 13.2253086419753,
+                "payoff": 13.225308641975312,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0529012345679012,
+                "nominalInterestRate": 0.052901234567901245,
                 "accruedInterest": 0
             },
             {
@@ -3261,16 +3355,16 @@
                 "payoff": 3000,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "nominalInterestRate": 0.0529012345679012,
+                "nominalInterestRate": 0.052901234567901245,
                 "accruedInterest": 0
             }
         ]
     },
-    "pam22": {
-        "identifier": "pam22",
+    "pam23": {
+        "identifier": "pam23",
         "terms": {
             "contractType": "PAM",
-            "contractID": "pam22",
+            "contractID": "pam23",
             "statusDate": "2012-12-30T00:00:00",
             "contractDealDate": "2012-12-28T00:00:00",
             "currency": "USD",
@@ -3283,14 +3377,14 @@
             "cycleAnchorDateOfRateReset": "2013-02-01T00:00:00",
             "cycleOfRateReset": "P3ML1",
             "rateSpread": "0.02",
-            "marketObjectCodeRateReset": "USD_SWP",
+            "marketObjectCodeOfRateReset": "USD_SWP",
             "dayCountConvention": "30E360",
             "endOfMonthConvention": "SD",
             "premiumDiscountAtIED": "-200",
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3491,11 +3585,11 @@
             }
         ]
     },
-    "pam23": {
-        "identifier": "pam23",
+    "pam24": {
+        "identifier": "pam24",
         "terms": {
             "contractType": "PAM",
-            "contractID": "pam23",
+            "contractID": "pam24",
             "statusDate": "2012-12-30T00:00:00",
             "contractDealDate": "2012-12-28T00:00:00",
             "currency": "USD",
@@ -3508,14 +3602,14 @@
             "cycleAnchorDateOfRateReset": "2013-05-20T00:00:00",
             "cycleOfRateReset": "P29DL0",
             "rateSpread": "0.02",
-            "marketObjectCodeRateReset": "USD_SWP",
+            "marketObjectCodeOfRateReset": "USD_SWP",
             "dayCountConvention": "30E360",
             "endOfMonthConvention": "SD",
             "premiumDiscountAtIED": "-200",
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
             "USD_SWP": {
                 "identifier": "USD_SWP",
@@ -3615,16 +3709,16 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0307901234536329,
-                "accruedInterest": 15.8333333333333
+                "nominalInterestRate": 0.03079012345679013,
+                "accruedInterest": 15.833333333333334
             },
             {
                 "eventDate": "2013-06-01T00:00",
                 "eventType": "IP",
-                "payoff": 18.655761316583,
+                "payoff": 18.65576131687243,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0307901234536329,
+                "nominalInterestRate": 0.03079012345679013,
                 "accruedInterest": 0
             },
             {
@@ -3633,16 +3727,16 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0311419753069273,
-                "accruedInterest": 4.36193415593133
+                "nominalInterestRate": 0.031141975308641978,
+                "accruedInterest": 4.361934156378602
             },
             {
                 "eventDate": "2013-07-01T00:00",
                 "eventType": "IP",
-                "payoff": 7.73564814751513,
+                "payoff": 7.735648148148149,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0311419753069273,
+                "nominalInterestRate": 0.031141975308641978,
                 "accruedInterest": 0
             },
             {
@@ -3651,16 +3745,16 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0314938271604938,
-                "accruedInterest": 4.15226337425697
+                "nominalInterestRate": 0.031493827160493818,
+                "accruedInterest": 4.152263374485598
             },
             {
                 "eventDate": "2013-08-01T00:00",
                 "eventType": "IP",
-                "payoff": 7.82654320964792,
+                "payoff": 7.826543209876543,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0314938271604938,
+                "nominalInterestRate": 0.031493827160493818,
                 "accruedInterest": 0
             },
             {
@@ -3669,16 +3763,16 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0318395061728395,
-                "accruedInterest": 3.67427983539095
+                "nominalInterestRate": 0.031839506172839513,
+                "accruedInterest": 3.6742798353909447
             },
             {
                 "eventDate": "2013-09-01T00:00",
                 "eventType": "IP",
-                "payoff": 7.91954732510288,
+                "payoff": 7.919547325102879,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0318395061728395,
+                "nominalInterestRate": 0.031839506172839513,
                 "accruedInterest": 0
             },
             {
@@ -3687,16 +3781,16 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0321913580246914,
-                "accruedInterest": 3.18395061728395
+                "nominalInterestRate": 0.032191358024691361,
+                "accruedInterest": 3.183950617283951
             },
             {
                 "eventDate": "2013-10-01T00:00",
                 "eventType": "IP",
-                "payoff": 8.01265432098766,
+                "payoff": 8.012654320987656,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0321913580246914,
+                "nominalInterestRate": 0.032191358024691361,
                 "accruedInterest": 0
             },
             {
@@ -3705,16 +3799,16 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0325432098765432,
-                "accruedInterest": 2.95087448559671
+                "nominalInterestRate": 0.032543209876543192,
+                "accruedInterest": 2.9508744855967084
             },
             {
                 "eventDate": "2013-11-01T00:00",
                 "eventType": "IP",
-                "payoff": 8.10354938271605,
+                "payoff": 8.103549382716047,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0325432098765432,
+                "nominalInterestRate": 0.032543209876543192,
                 "accruedInterest": 0
             },
             {
@@ -3723,25 +3817,25 @@
                 "payoff": 0,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0328950617283951,
-                "accruedInterest": 2.44074074074074
+                "nominalInterestRate": 0.032895061728395062,
+                "accruedInterest": 2.4407407407407393
             },
             {
                 "eventDate": "2013-12-01T00:00",
                 "eventType": "IP",
-                "payoff": 8.19737654320988,
+                "payoff": 8.197376543209876,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0328950617283951,
+                "nominalInterestRate": 0.032895061728395062,
                 "accruedInterest": 0
             },
             {
                 "eventDate": "2014-01-01T00:00",
                 "eventType": "IP",
-                "payoff": 8.22376543209876,
+                "payoff": 8.223765432098764,
                 "currency": "USD",
                 "notionalPrincipal": 3000,
-                "nominalInterestRate": 0.0328950617283951,
+                "nominalInterestRate": 0.032895061728395062,
                 "accruedInterest": 0
             },
             {
@@ -3750,16 +3844,16 @@
                 "payoff": 3000,
                 "currency": "USD",
                 "notionalPrincipal": 0,
-                "nominalInterestRate": 0.0328950617283951,
+                "nominalInterestRate": 0.032895061728395062,
                 "accruedInterest": 0
             }
         ]
     },
-    "pam24": {
-        "identifier": "pam24",
+    "pam25": {
+        "identifier": "pam25",
         "terms": {
             "contractType": "PAM",
-            "contractID": "pam24",
+            "contractID": "pam25",
             "statusDate": "2012-12-30T00:00:00",
             "contractDealDate": "2012-12-28T00:00:00",
             "currency": "USD",
@@ -3775,7 +3869,7 @@
             "rateMultiplier": "1.0",
             "contractRole": "RPA"
         },
-        "to": null,
+        "to": "",
         "dataObserved": {
 
         },

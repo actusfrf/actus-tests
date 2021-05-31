@@ -9,7 +9,7 @@
             "currency": "CHF",
             "notionalPrincipal": "1000"
         },
-        "to": null,
+        "to": "2015-08-15T00:00:00",
         "dataObserved": {
 
         },
@@ -42,7 +42,7 @@
             "currency": "USD",
             "notionalPrincipal": "1200"
         },
-        "to": null,
+        "to": "2015-08-15T00:00:00",
         "dataObserved": {
 
         },
@@ -75,7 +75,7 @@
             "currency": "CHF",
             "notionalPrincipal": "2000"
         },
-        "to": null,
+        "to": "2015-09-15T00:00:00",
         "dataObserved": {
 
         },
@@ -108,13 +108,13 @@
             "currency": "USD",
             "notionalPrincipal": "2500"
         },
-        "to": null,
+        "to": "2015-09-15T00:00:00",
         "dataObserved": {
 
         },
         "eventsObserved": [
             {
-                "time": "2015-08-20T00:00:00",
+                "time": "2015-08-20T23:59:59",
                 "type": "AD",
                 "value": 0
             }
