@@ -9291,508 +9291,512 @@
             }
           ]
     },
-    "lam32": {
-    "identifier": "lam32",
-    "terms": {
-      "contractType": "LAM",
-      "contractID": "lam32",
-      "contractRole": "RPL",
-      "contractDealDate": "2021-12-30T00:00:00",
-      "initialExchangeDate": "2021-12-31T00:00:00",
-      "statusDate": "2021-12-30T00:00:00",
-      "notionalPrincipal": "1000",
-      "maturityDate": "2022-12-31T00:00:00",
-      "cycleAnchorDateOfPrincipalRedemption": "2022-01-31T00:00:00",
-      "dayCountConvention": "A365",
-      "nominalInterestRate": "0.08",
-      "nextPrincipalRedemptionPayment": "500",
-      "currency": "USD",
-      "cycleOfPrincipalRedemption": "P1ML1",
-      "cycleAnchorDateOfInterestPayment": "2022-01-31T00:00:00",
-      "cycleOfInterestPayment": "P1ML0"
-    },
-    "to": "2022-12-31T00:00:00",
-    "dataObserved": {},
-    "eventsObserved": [],
-    "results": [
-      {
-        "eventDate": "2021-12-31T00:00:00",
-        "eventType": "IED",
-        "payoff": 1000.0,
-        "currency": "USD",
-        "notionalPrincipal": -1000.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-01-31T00:00:00",
-        "eventType": "PR",
-        "payoff": -500.0,
-        "currency": "USD",
-        "notionalPrincipal": -500.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": -6.0
-      },
-      {
-        "eventDate": "2022-01-31T00:00:00",
-        "eventType": "IP",
-        "payoff": -6.0,
-        "currency": "USD",
-        "notionalPrincipal": -500.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-02-28T00:00:00",
-        "eventType": "PR",
-        "payoff": -500.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": -3.0
-      },
-      {
-        "eventDate": "2022-02-28T00:00:00",
-        "eventType": "IP",
-        "payoff": -3.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-03-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-03-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-04-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-04-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-05-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-05-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-06-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-06-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-07-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-07-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-08-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-08-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-09-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-09-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-10-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-10-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-11-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-11-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-12-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-12-31T00:00:00",
-        "eventType": "MD",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      }
-    ]
-  },
-    "lam33": {
-    "identifier": "lam33",
-    "terms": {
-      "contractType": "LAM",
-      "contractID": "lam33",
-      "contractRole": "RPA",
-      "contractDealDate": "2021-12-30T00:00:00",
-      "initialExchangeDate": "2021-12-31T00:00:00",
-      "statusDate": "2021-12-30T00:00:00",
-      "notionalPrincipal": "1000",
-      "maturityDate": "2022-12-31T00:00:00",
-      "cycleAnchorDateOfPrincipalRedemption": "2022-01-31T00:00:00",
-      "dayCountConvention": "A365",
-      "nominalInterestRate": "0.08",
-      "nextPrincipalRedemptionPayment": "500",
-      "currency": "USD",
-      "cycleOfPrincipalRedemption": "P1ML1",
-      "cycleAnchorDateOfInterestPayment": "2022-01-31T00:00:00",
-      "cycleOfInterestPayment": "P1ML0"
-    },
-    "to": "2022-12-31T00:00:00",
-    "dataObserved": {},
-    "eventsObserved": [],
-    "results": [
-      {
-        "eventDate": "2021-12-31T00:00:00",
-        "eventType": "IED",
-        "payoff": -1000.0,
-        "currency": "USD",
-        "notionalPrincipal": 1000.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-01-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 500.0,
-        "currency": "USD",
-        "notionalPrincipal": 500.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 6.0
-      },
-      {
-        "eventDate": "2022-01-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 6.0,
-        "currency": "USD",
-        "notionalPrincipal": 500.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-02-28T00:00:00",
-        "eventType": "PR",
-        "payoff": 500.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 3.0
-      },
-      {
-        "eventDate": "2022-02-28T00:00:00",
-        "eventType": "IP",
-        "payoff": 3.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-03-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-03-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-04-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-04-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-05-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-05-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-06-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-06-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-07-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-07-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-08-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-08-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-09-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-09-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-10-31T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-10-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-11-30T00:00:00",
-        "eventType": "PR",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-11-30T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-12-31T00:00:00",
-        "eventType": "IP",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      },
-      {
-        "eventDate": "2022-12-31T00:00:00",
-        "eventType": "MD",
-        "payoff": 0.0,
-        "currency": "USD",
-        "notionalPrincipal": 0.0,
-        "nominalInterestRate": 0.0,
-        "accruedInterest": 0.0
-      }
-    ]
-  },  
+	"lam32": {
+		"identifier": "lam32",
+		"terms": {
+			"contractType": "LAM",
+			"contractID": "lam32",
+			"contractRole": "RPL",
+			"contractDealDate": "2021-12-30T00:00:00",
+			"initialExchangeDate": "2021-12-31T00:00:00",
+			"statusDate": "2021-12-30T00:00:00",
+			"notionalPrincipal": "1000",
+			"maturityDate": "2022-12-31T00:00:00",
+			"cycleAnchorDateOfPrincipalRedemption": "2022-01-31T00:00:00",
+			"dayCountConvention": "A365",
+			"nominalInterestRate": "0.08",
+			"nextPrincipalRedemptionPayment": "500",
+			"currency": "USD",
+			"cycleOfPrincipalRedemption": "P1ML1",
+			"cycleAnchorDateOfInterestPayment": "2022-01-31T00:00:00",
+			"cycleOfInterestPayment": "P1ML0"
+		},
+		"to": "2022-12-31T00:00:00",
+		"dataObserved": {
+		},
+		"eventsObserved": [
+		],
+		"results": [
+			{
+				"eventDate": "2021-12-31T00:00:00",
+				"eventType": "IED",
+				"payoff": 1000.0,
+				"currency": "USD",
+				"notionalPrincipal": -1000.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": -0.0
+			},
+			{
+				"eventDate": "2022-01-31T00:00:00",
+				"eventType": "PR",
+				"payoff": -500.0,
+				"currency": "USD",
+				"notionalPrincipal": -500.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": -6.794520547945205
+			},
+			{
+				"eventDate": "2022-01-31T00:00:00",
+				"eventType": "IP",
+				"payoff": -6.794520547945205,
+				"currency": "USD",
+				"notionalPrincipal": -500.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-02-28T00:00:00",
+				"eventType": "PR",
+				"payoff": -500.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": -3.068493150684932
+			},
+			{
+				"eventDate": "2022-02-28T00:00:00",
+				"eventType": "IP",
+				"payoff": -3.068493150684932,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-03-31T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-03-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-04-30T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-04-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-05-31T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-05-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-06-30T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-06-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-07-31T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-07-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-08-31T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-08-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-09-30T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-09-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-10-31T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-10-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-11-30T00:00:00",
+				"eventType": "PR",
+				"payoff": -0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-11-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-12-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-12-31T00:00:00",
+				"eventType": "MD",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			}
+		]
+	},
+	"lam33": {
+		"identifier": "lam33",
+		"terms": {
+			"contractType": "LAM",
+			"contractID": "lam33",
+			"contractRole": "RPA",
+			"contractDealDate": "2021-12-30T00:00:00",
+			"initialExchangeDate": "2021-12-31T00:00:00",
+			"statusDate": "2021-12-30T00:00:00",
+			"notionalPrincipal": "1000",
+			"maturityDate": "2022-12-31T00:00:00",
+			"cycleAnchorDateOfPrincipalRedemption": "2022-01-31T00:00:00",
+			"dayCountConvention": "A365",
+			"nominalInterestRate": "0.08",
+			"nextPrincipalRedemptionPayment": "500",
+			"currency": "USD",
+			"cycleOfPrincipalRedemption": "P1ML1",
+			"cycleAnchorDateOfInterestPayment": "2022-01-31T00:00:00",
+			"cycleOfInterestPayment": "P1ML0"
+		},
+		"to": "2022-12-31T00:00:00",
+		"dataObserved": {
+		},
+		"eventsObserved": [
+		],
+		"results": [
+			{
+				"eventDate": "2021-12-31T00:00:00",
+				"eventType": "IED",
+				"payoff": -1000.0,
+				"currency": "USD",
+				"notionalPrincipal": 1000.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-01-31T00:00:00",
+				"eventType": "PR",
+				"payoff": 500.0,
+				"currency": "USD",
+				"notionalPrincipal": 500.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 6.794520547945205
+			},
+			{
+				"eventDate": "2022-01-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 6.794520547945205,
+				"currency": "USD",
+				"notionalPrincipal": 500.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-02-28T00:00:00",
+				"eventType": "PR",
+				"payoff": 500.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 3.068493150684932
+			},
+			{
+				"eventDate": "2022-02-28T00:00:00",
+				"eventType": "IP",
+				"payoff": 3.068493150684932,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-03-31T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-03-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-04-30T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-04-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-05-31T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-05-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-06-30T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-06-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-07-31T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-07-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-08-31T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-08-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-09-30T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-09-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-10-31T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-10-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-11-30T00:00:00",
+				"eventType": "PR",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-11-30T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-12-31T00:00:00",
+				"eventType": "IP",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			},
+			{
+				"eventDate": "2022-12-31T00:00:00",
+				"eventType": "MD",
+				"payoff": 0.0,
+				"currency": "USD",
+				"notionalPrincipal": 0.0,
+				"nominalInterestRate": 0.08,
+				"accruedInterest": 0.0
+			}
+		]
+	},
 	"lam34": {
 		"identifier": "lam34",
 		"terms": {
@@ -10205,3 +10209,4 @@
 		]
 	}
 }
+
